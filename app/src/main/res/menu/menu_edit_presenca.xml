@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.maikenunes.mcontrol.EditPresencaActivity">
+    <item android:id="@+id/action_reader"
+        android:title="Leitor QR Code"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_photo"
+        android:title="Leitor Facial"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_list"
+        android:title="Presenças Confirmadas"
+        android:icon="@drawable/ic_action_cc_bcc"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

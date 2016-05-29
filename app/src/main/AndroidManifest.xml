@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.maikenunes.mcontrol" >
+
+    <!-- solicitação de permissoes do aplicativo -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_action_group"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditPessoaActivity"
+            android:label="@string/title_activity_edit_pessoa"
+            android:parentActivityName=".ListaPessoaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.ListaPessoaActivity" />
+        </activity>
+        <activity
+            android:name=".ListaPessoaActivity"
+            android:label="@string/title_activity_lista_pessoa"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ListaEventoActivity"
+            android:label="@string/title_activity_lista_evento"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditEventoActivity"
+            android:label="@string/title_activity_edit_evento"
+            android:parentActivityName=".ListaEventoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.ListaEventoActivity" />
+        </activity>
+        <activity
+            android:name=".ListaEventoEncontroActivity"
+            android:label="@string/title_activity_lista_evento_encontro"
+            android:parentActivityName=".EditEventoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.EditEventoActivity" />
+        </activity>
+        <activity
+            android:name=".ListaEventoPessoaActivity"
+            android:label="@string/title_activity_lista_evento_pessoa"
+            android:parentActivityName=".EditEventoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.EditEventoActivity" />
+        </activity>
+        <activity
+            android:name=".EditEventoPessoaActivity"
+            android:label="@string/title_activity_edit_evento_pessoa" >
+        </activity>
+        <activity
+            android:name=".EditEventoEncontroActivity"
+            android:label="@string/title_activity_edit_evento_encontro"
+            android:parentActivityName=".ListaEventoEncontroActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.ListaEventoEncontroActivity" />
+        </activity>
+        <activity
+            android:name=".ListaEventoEncontroPresencaActivity"
+            android:label="@string/title_activity_lista_evento_encontro_presenca"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.maikenunes.mcontrol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditPresencaActivity"
+            android:label="@string/title_activity_edit_presenca" >
+        </activity>
+        <activity
+            android:name=".EditPresencaConfirmActivity"
+            android:label="@string/title_activity_edit_presenca_confirm" >
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="CameraActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".EditRelatorioActivity"
+            android:label="@string/title_activity_edit_relatorio" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="net.maikenunes.mcontrol.EditEventoEncontroActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/label_id"
+            android:id="@+id/lblId"
+            android:layout_below="@+id/editID"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <EditText
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/editID"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:enabled="false"
+            android:editable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data/Hora inicio"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:padding="0dp">
+
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editDataIni"
+                android:nextFocusDown="@id/editHoraIni"
+                android:focusable="false"
+                android:editable="false"
+                android:enabled="true" />
+
+            <ImageButton
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_action_go_to_today"
+                android:id="@+id/btnDataIni" />
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/editHoraIni"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:nextFocusDown="@id/editDataFim"
+                android:editable="false"
+                android:enabled="true" />
+
+            <ImageButton
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_action_time"
+                android:id="@+id/btnHoraIni" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data/Hora fim"
+            android:id="@+id/txtDataHoraFim"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:padding="0dp">
+
+            <EditText
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editDataFim"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:nextFocusDown="@id/editHoraFim"
+                android:editable="false"
+                android:enabled="true" />
+
+            <ImageButton
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_action_go_to_today"
+                android:id="@+id/btnDataFim" />
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/editHoraFim"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:editable="false"
+                android:enabled="true" />
+
+            <ImageButton
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_action_time"
+                android:id="@+id/btnHoraFim" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

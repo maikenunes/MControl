@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.maikenunes.mcontrol.EditEventoActivity">
+    <item android:id="@+id/action_relat"
+        android:title="@string/action_export"
+        android:icon="@drawable/ic_action_download"
+        android:orderInCategory="99"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_person"
+        android:title="@string/action_person"
+        android:icon="@drawable/ic_action_group"
+        android:orderInCategory="99"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_encontro"
+        android:title="@string/action_encontro"
+        android:icon="@drawable/ic_action_add_to_queue"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_action_accept"
+        android:title="@string/action_save"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>
