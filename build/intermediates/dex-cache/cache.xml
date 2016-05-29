@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\libs\javacpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\javacpp-d0620ad2c37551ff0e9493f9725ab9b9bb85f78a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\libs\javacv.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\javacv-da348021ead7f1a4320ded6e5d9e3b80fd12d414.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\classes-ed61585502e4698b43619cbefbcca3a4d66d24e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\classes-a5e449b4ef69a89afdeb7ceacd924332e2d137a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-4721cb0f56883d9bf17f595a99f9c09852c26a60.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\core-3.2.0-d640a888a2335865847f9dc20501e404b58e52da.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0d7b062303473e1825efcb59ab0e3fbfbb64247">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\classes-a28ace266c646f8efbf669f79222ca444ef4c923.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\exploded-aar\MControl\openCVLib2411\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="51b719b05b05dee297521f5a0462c05e4eb62544">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\classes-c3cac5cc470aebddd4e4a86e4f01ed6a44898065.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maike Nunes\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.0\support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="C:\Users\Maike Nunes\AndroidStudioProjects\MControl\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.0-d69d5e166fee6b58499d6065a254ae46f4e1a0aa.jar" />
+    </item>
+
+</items>
